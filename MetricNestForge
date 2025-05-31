@@ -1,0 +1,22 @@
+
+---
+
+**MetricNestForge**  
+**Description:**  
+Builds synthetic metrics with statistical controls to simulate real-world monitoring environments.
+
+```markdown
+# MetricNestForge – Synthetic Metrics Generator
+
+MetricNestForge is designed to produce stable, volatile, and spiky metric sets for testing dashboards and alerts.
+
+## Features
+- Pattern presets: sine, spike, burst, flatline
+- JSON, CSV, and Prometheus formats
+- Adjustable duration, frequency, and jitter
+
+## Usage
+```bash
+git clone https://github.com/your-username/MetricNestForge.git
+cd MetricNestForge
+python forge.py
