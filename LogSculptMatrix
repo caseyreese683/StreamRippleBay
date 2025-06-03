@@ -1,0 +1,22 @@
+
+---
+
+**LogSculptMatrix**  
+**Description:**  
+Structures raw logs into a matrix of context-aware fields for querying and modeling.
+
+```markdown
+# LogSculptMatrix – Structured Log Formatter
+
+LogSculptMatrix parses unstructured logs and organizes them into meaningful field matrices for downstream analysis.
+
+## Features
+- Regex and AI-assisted field extraction
+- Tag enrichment based on log context
+- Export to JSONL / Parquet
+
+## Usage
+```bash
+git clone https://github.com/your-username/LogSculptMatrix.git
+cd LogSculptMatrix
+python sculpt.py
