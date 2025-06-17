@@ -1,0 +1,16 @@
+from faker import Faker
+import random
+
+faker = Faker()
+
+def generate_field(options):
+    if options == "name":
+        return faker.name()
+    elif options == "email":
+        return faker.email()
+    elif options == "int":
+        return random.randint(0, 100)
+    elif options == "uuid":
+        return faker.uuid4()
+    else:
+        return f"[unknown: {options}]"
